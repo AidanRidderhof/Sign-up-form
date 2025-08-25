@@ -1,0 +1,1 @@
+Mock sign-up page to practice more advanced css topics and validation

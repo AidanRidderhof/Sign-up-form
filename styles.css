@@ -1,7 +1,20 @@
-img {
+.content {
+    max-width: 66%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main > div {
+    flex-direction: column;
+}
+
+.photo-content {
     max-width: 33%;
 }
 
-.content {
-    max-width: 66%;
+img {
+    max-width: 100%;
 }

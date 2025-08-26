@@ -26,23 +26,44 @@
             <form>
                 <fieldset>
                     <p>Lets do this!</p>
-                    <label for="first-name">First Name</label>
-                    <input name="first-name" type="text" required>
+                    <div class="row">
+                        <div class="field-input">
+                            <label for="first-name">First Name</label>
+                            <input name="first-name" type="text" required>
+                        </div>
 
-                    <label for="last-name">Last Name</label>
-                    <input name="last-name" type="text" required>
+                        <div class="field-input">
+                            <label for="last-name">Last Name</label>
+                            <input name="last-name" type="text" required>
+                        </div>
+                    </div>
+                    <br/>
 
-                    <label for="email">email</label>
-                    <input name="email" type="email" required>
-                    
-                    <label for="phone-number">Phone Number</label>
-                    <input name="phone-number" type="tel" required>
+                    <div class="row">
+                        <div class="field-input">
+                            <label for="email">email</label>
+                            <input name="email" type="email" required>
+                        </div>
+                        
+                        <div class="field-input">
+                            <label for="phone-number">Phone Number</label>
+                            <input name="phone-number" type="tel" required>
+                        </div>
+                    </div>
+                    <br/>
 
-                    <label for="pass-1">Password</label>
-                    <input name="pass-1" type="password" required>
+                    <div class="row">
+                        <div class="field-input">
+                            <label for="pass-1">Password</label>
+                            <input name="pass-1" type="password" required>
+                        </div> 
 
-                    <label for="pass-2">Confirm Password</label>
-                    <input name="pass-2" type="password" required>
+                        
+                        <div class="field-input">
+                            <label for="pass-2">Confirm Password</label>
+                            <input name="pass-2" type="password" required>
+                        </div>
+                    </div>
                 </fieldset>
                 <input type="submit">
             </form>

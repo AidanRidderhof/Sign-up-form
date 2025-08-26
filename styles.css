@@ -13,13 +13,13 @@ main > div {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 
 .text-on-photo {
     position: absolute;
-    width: 100%;
+    width: 33%;
     background: black;
     opacity: 0.6;
     color: white;
@@ -43,4 +43,19 @@ p>a {
     flex-basis: 66%;
 }
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
 
+
+.field-input {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

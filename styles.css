@@ -1,7 +1,3 @@
-.content {
-    max-width: 66%;
-}
-
 main {
     display: flex;
     flex-direction: row;
@@ -11,10 +7,40 @@ main > div {
     flex-direction: column;
 }
 
+
 .photo-content {
-    max-width: 33%;
+    flex-basis: 33%;
 }
 
 img {
     max-width: 100%;
+    position: relative;
 }
+
+.text-on-photo {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+    left: 0;
+}
+
+.photo-content > p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+p>a {
+    color: white;
+}
+
+.content {
+    flex-basis: 66%;
+}
+
+

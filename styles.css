@@ -69,9 +69,14 @@ fieldset {
     flex-direction: row;
 }
 
-label, input, fieldset>p, .content>p {
+label, input, fieldset>p {
     margin-right: 40px;
     margin-left: 20px;
+}
+
+.content>p {
+    margin-right: 80px;
+    margin-left: 34px;
 }
 
 input {
@@ -103,4 +108,5 @@ input:invalid {
     height: 35px;
     color: white;
     border-radius: 5px;
+    margin-left: 34px;
 }

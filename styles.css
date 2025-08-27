@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(./Norse-Bold.otf);
+}
+
 :root {
     --button-color: #596D48;
 
@@ -28,9 +33,13 @@ main > div {
 img {
     width: 100%;
     position: relative;
+    height: 100%;
 }
 
 .text-on-photo {
+    font-family: 'Norse';
+    font-size: 70px;
+    font-size: 3rem;
     position: absolute;
     width: 33%;
     background: black;
@@ -38,8 +47,8 @@ img {
     color: white;
     top: 8rem;
     text-align: center;
-    font-size: 1.2em;
     left: 0;
+    height: 100px;
 }
 
 .photo-content > p {
@@ -84,6 +93,10 @@ label, input, fieldset>p {
     margin-left: 34px;
     margin-top: 80px;
 
+}
+
+.content:last-child {
+    margin-top: -40px;
 }
 
 input {

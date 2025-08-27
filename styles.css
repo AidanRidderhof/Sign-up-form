@@ -87,16 +87,11 @@ label, input, fieldset>p {
     margin-left: 20px;
 }
 
-/*this is also affecting the bottom p tag */
-.content>p {
+.content>p:first-child {
     margin-right: 200px;
     margin-left: 34px;
     margin-top: 80px;
 
-}
-
-.content:last-child {
-    margin-top: -40px;
 }
 
 input {

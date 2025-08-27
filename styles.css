@@ -28,9 +28,10 @@ main > div {
     flex-basis: 33%;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
-img {
+.photo-content>img {
     width: 100%;
     position: relative;
     height: 100%;
@@ -39,16 +40,30 @@ img {
 .text-on-photo {
     font-family: 'Norse';
     font-size: 70px;
-    font-size: 3rem;
     position: absolute;
-    width: 33%;
+    width: 100%;
     background: black;
     opacity: 0.6;
     color: white;
     top: 8rem;
     text-align: center;
     left: 0;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-on-photo > img{
+    height: 4rem;
+    width: 4rem;
+    opacity: 1;
+}
+
+.text-on-photo > p {
+    opacity: 1;
+    margin: 0;
 }
 
 .photo-content > p {
@@ -63,12 +78,6 @@ img {
 
 .content {
     flex-basis: 66%;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
 }
 
 .field-input {
@@ -105,6 +114,9 @@ fieldset {
     border: none;
     margin-left: none;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 
 }
 
@@ -126,4 +138,8 @@ input:invalid {
     border-radius: 5px;
     margin-left: 34px;
     margin-top: 30px;
+}
+
+#login {
+    margin-left: 34px;
 }

@@ -74,11 +74,31 @@ label, input, fieldset>p, .content>p {
     margin-left: 20px;
 }
 
+input {
+    box-shadow: 2px 2px 5px grey;
+}
+
+fieldset {
+    box-shadow: 2px 2px 5px grey;
+    border: none;
+    width: 100%;
+
+}
+
+input:valid {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
 [type = "submit"] {
     background-color: var(--button-color);
     box-shadow: none;
     border: none;
     width: 150px;
-    height: 30px;
+    height: 35px;
     color: white;
+    border-radius: 5px;
 }

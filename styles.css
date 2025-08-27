@@ -76,6 +76,8 @@ label, input, fieldset>p, .content>p {
 
 input {
     box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 fieldset {

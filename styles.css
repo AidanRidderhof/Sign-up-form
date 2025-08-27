@@ -51,12 +51,8 @@ img {
 fieldset {
     display: flex;
     flex-direction: column;
-}
-
-.content>p {
     margin-top: 40px;
 }
-
 
 .field-input {
     display: flex;
@@ -74,9 +70,12 @@ label, input, fieldset>p {
     margin-left: 20px;
 }
 
+/*this is also affecting the bottom p tag */
 .content>p {
-    margin-right: 80px;
+    margin-right: 200px;
     margin-left: 34px;
+    margin-top: 80px;
+
 }
 
 input {
@@ -88,7 +87,8 @@ input {
 fieldset {
     box-shadow: 2px 2px 5px grey;
     border: none;
-    width: 100%;
+    margin-left: none;
+    width: 70%;
 
 }
 
@@ -109,4 +109,5 @@ input:invalid {
     color: white;
     border-radius: 5px;
     margin-left: 34px;
+    margin-top: 30px;
 }
